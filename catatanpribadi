@@ -1,0 +1,5 @@
+Fitur yang Anda maksud dinamakan Shopee Autocomplete Suggestions atau Search Keyword Suggestions. Ketika Anda mengetik "jaket", Shopee otomatis memanggil API internal mereka untuk memunculkan rekomendasi kata kunci lanjutannya (seperti "jaket pria", "jaket hoodie", "jaket parasut", dll.).
+Untuk mengambil (scrape) semua rekomendasi kata kunci tersebut secara massal dari sebuah daftar kata kunci utama, Anda membutuhkan tool yang menargetkan endpoint API Suggestion Shopee. Berikut adalah repository GitHub dan referensi kode yang bisa Anda gunakan:
+Meskipun repo ini aslinya dibuat untuk Google Autocomplete, struktur kodenya menggunakan metode multi-seed support.
+• Keunggulan: Anda bisa memasukkan daftar kata kunci utama (misal: jaket, kaos, sepatu), lalu script ini akan melakukan lookup massal untuk menarik semua variasi kata kunci otomatis di belakangnya.
+• Modifikasi: Anda hanya perlu mengubah target URL API di dalam kodenya ke API Suggestion Shopee Indonesia.
